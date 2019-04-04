@@ -36,7 +36,7 @@ def wtf_pyramid
   print"> "
   floors=gets.chomp
   floors=floors.to_i
-  if(floors.even?) #Dans les bonus de l'énoncé c'était écris "envoyer booler l'utilisateurs pour les nombres pair", j'ai mis une condition pour empecher d'entrer un nombre pair
+  if(floors.even?) 
     puts "Désolé je ne cherche pas les embrouilles avec les nombres pairs (c'est trop dangereux pour moi)"
   else
     n = 0
