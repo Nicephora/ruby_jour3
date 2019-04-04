@@ -17,4 +17,4 @@ def perform
 say_hello
 end
 
-perform #J'ai mis un perform au final (pour pas qu'on nous saoule)
+perform
